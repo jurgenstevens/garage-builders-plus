@@ -2,8 +2,11 @@ import React, { useState } from 'react'
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai'
 
 export default function Navbar() {
-const [nav, setNav] = useState(false)
+  const [nav, setNav] = useState(false)
 
+  const handleNav = () => {
+    setNav(!nav)
+  }
     // <img src="../../public/GBP-Logo.jpeg" />
   return (
     <div className='flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-white'>
