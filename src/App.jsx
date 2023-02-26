@@ -1,11 +1,11 @@
 import { useState } from 'react'
+import Navbar from './components/Navbar.jsx'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <div className="App">
       <h1>Hello from App.jsx!</h1>
+      <Navbar />
     </div>
   )
 }
