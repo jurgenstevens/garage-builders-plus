@@ -27,7 +27,7 @@ export default function Navbar() {
             <li className='p-4'><Link to="/services">Services</Link></li>
             <li className='p-4'><Link to="/gallery">Gallery</Link></li>
             <li className='p-4'><Link to="/quote">Quote</Link></li>
-            <li className='p-4'><Link to="/Contact">Contact</Link></li>
+            <li className='p-4'><Link to="/contact">Contact</Link></li>
         </ul>
         <div onClick={handleNav} className='block md:hidden'>
           {!nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
