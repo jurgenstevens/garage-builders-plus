@@ -16,7 +16,7 @@ export default function Navbar() {
             style={{ width: "200px"}}
           />
           <div>
-            <h1 className='text-3xl font-bold text-[#5D9CF3]'>Garage</h1>
+            <h1 className='text-3xl font-satisfy-bold text-[#5D9CF3]'>Garage</h1>
             <h1 className='text-3xl font-bold text-[#969696]'>Builders </h1>
             <h1 className='text-3xl font-bold text-[#5D9CF3]'>Plus</h1>
           </div>
