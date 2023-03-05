@@ -2,6 +2,8 @@ import React from 'react'
 
 export default function Services() {
   return (
-    <div>Services</div>
+    <div>
+      <h1 className='text-[#EFEFEF]'>Hello from Services!</h1>
+    </div>
   )
 }
