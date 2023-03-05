@@ -7,10 +7,19 @@ export default function Navbar() {
   const handleNav = () => {
     setNav(!nav)
   }
-    // <img src="../../public/GBP-Logo.jpeg" />
   return (
-    <div className='flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-white'>
-        <h1 className='text-3xl font-bold text-[#5D9CF3]'>Garage Builders Plus</h1>
+    <header className='flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-white'>
+        <div className='flex'>
+          <img 
+            src="../../public/GBP-Logo.jpeg"
+            style={{ width: "200px"}}
+          />
+          <div>
+            <h1 className='text-3xl font-bold text-[#5D9CF3]'>Garage</h1>
+            <h1 className='text-3xl font-bold text-[#969696]'>Builders </h1>
+            <h1 className='text-3xl font-bold text-[#5D9CF3]'>Plus</h1>
+          </div>
+        </div>
         <ul className='hidden md:flex'>
             <li className='p-4'>Home</li>
             <li className='p-4'>About Us</li>
@@ -32,6 +41,6 @@ export default function Navbar() {
             <li className='p-4'>Contact</li>
           </ul>
         </div>
-    </div>
+    </header>
   )
 }
