@@ -9,17 +9,17 @@ export default function Navbar() {
     setNav(!nav)
   }
   return (
-    <header className='flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-white'>
-        <div className='flex'>
+    <header className='flex justify-between items-center h-25 max-w-full mx-auto px-4 text-white bg-black'>
           <img 
             src="../../public/GBP-Logo.jpeg"
             style={{ width: "200px"}}
           />
-          <div>
+        <div className='flex'>
+          
             <h1 className='text-3xl font-satisfy-bold text-[#5D9CF3]'>Garage</h1>
             <h1 className='text-3xl font-bold text-[#969696]'>Builders </h1>
             <h1 className='text-3xl font-bold text-[#5D9CF3]'>Plus</h1>
-          </div>
+          
         </div>
         <ul className='hidden md:flex'>
             <li className='p-4'><Link to="/">Home</Link></li>

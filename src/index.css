@@ -3,7 +3,8 @@
 @tailwind utilities;
 
 body {
-  background-color: #000300;
+  /* background-color: #23282d; */
+  background-color: black;
   font-family: 'Fira Code', monospace;
   font-family: 'Merriweather Sans', sans-serif;
 }
