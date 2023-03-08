@@ -10,8 +10,8 @@ import Footer from './components/Footer.jsx'
 
 function App() {
   return (
-    <div className="App">
-      <Navbar className="bg-black" />
+    <div className="App bg-gray-800">
+      <Navbar />
       <div className="flex-grow min-h-[calc(95vh-100px)]">
         <Routes>
           <Route path="/" element={<Home />} />
