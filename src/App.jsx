@@ -10,9 +10,9 @@ import Footer from './components/Footer.jsx'
 
 function App() {
   return (
-    <div className="App bg-gray-800">
+    <div className="App flex flex-col h-screen bg-gray-800">
       <Navbar />
-      <div className="flex-grow min-h-[calc(95vh-100px)]">
+      <div className="flex-grow min-h">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
@@ -22,7 +22,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </div>
-      <Footer />
+      <Footer className="h-16" />
     </div>
   )
 }
