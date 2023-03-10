@@ -12,7 +12,7 @@ export default function Navbar() {
     <header className='flex justify-between items-center max-w-full py-2 px-4 text-white bg-black'>
         <div className='flex'>
           <img 
-            src="../../public/GBP-Logo.jpeg"
+            src="../GBP-Logo.jpeg"
             style={{ width: "200px"}}
           />
           <div>
@@ -26,7 +26,6 @@ export default function Navbar() {
             <li className='p-4'><Link to="/about">About Us</Link></li>
             <li className='p-4'><Link to="/services">Services</Link></li>
             <li className='p-4'><Link to="/gallery">Gallery</Link></li>
-            <li className='p-4'><Link to="/quote">Quote</Link></li>
             <li className='p-4'><Link to="/contact">Contact</Link></li>
         </ul>
         <div onClick={handleNav} className='block md:hidden'>
@@ -38,7 +37,6 @@ export default function Navbar() {
             <li className='p-4 border-b border-gray-600'><Link to='/about' onClick={handleNav}>About Us</Link></li>
             <li className='p-4 border-b border-gray-600'><Link to='/services' onClick={handleNav}>Services</Link></li>
             <li className='p-4 border-b border-gray-600'><Link to='/gallery' onClick={handleNav}>Gallery</Link></li>
-            <li className='p-4 border-b border-gray-600'><Link to='/quote' onClick={handleNav}>Quote</Link></li>
             <li className='p-4'><Link to='/contact' onClick={handleNav}>Contact</Link></li>
           </ul>
         </div>
