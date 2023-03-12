@@ -5,6 +5,7 @@
 body {
   /* background-color: #23282d; */
   background-color: black;
-  font-family: 'Fira Code', monospace;
-  font-family: 'Merriweather Sans', sans-serif;
+  /* font-family: 'Fira Code', monospace; */
+  /* font-family: 'Merriweather Sans', sans-serif; */
+  font-family: sans-serif;
 }

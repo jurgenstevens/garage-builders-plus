@@ -18,7 +18,7 @@ export default function Navbar() {
           <div>
             <h5 className='text-3xl font-satisfy-bold text-[#5D9CF3]'>Garage</h5>
             <h5 className='text-3xl font-bold text-[#969696]'>Builders </h5>
-            <h5 className='text-3xl font-bold text-[#5D9CF3]'>Plus</h5>
+            <h5 className='text-3xl font-bold text-[#5D9CF3]'>Plus, Inc</h5>
           </div>
         </div>
         <ul className='hidden md:flex'>
