@@ -2,8 +2,8 @@ import React from 'react'
 
 export default function Main() {
   return (
-    <div>
-        <div className="flex-grow flex flex-col justify-center">
+    <div className='flex flex-wrap mx-auto max-w-screen-lg'>
+        <div className="flex-grow flex flex-col items-center">
           <img src="../../garagehomeimage.jpeg" alt="two-door-garage" className='max-w-full' style={{width: '1000px'}} />
         </div>
         <div className="text-[#5D9CF2] font-bold flex gap-4 mt-4 justify-center">
