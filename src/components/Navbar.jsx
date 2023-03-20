@@ -9,7 +9,7 @@ export default function Navbar() {
     setNav(!nav)
   }
   return (
-    <header className='flex justify-between items-center max-w-full py-2 px-4 text-white bg-black'>
+    <header className='flex justify-between items-center max-w-full py-2 px-4 text-white bg-black rounded-b-lg'>
         <div className='flex'>
           <img 
             src="../GBP-Logo.jpeg"

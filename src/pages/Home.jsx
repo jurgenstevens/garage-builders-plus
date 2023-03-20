@@ -3,10 +3,10 @@ import React from 'react'
 export default function Main() {
   return (
     <div className='flex flex-wrap mx-auto max-w-screen-lg'>
-        <div className="flex-grow flex flex-col items-center">
-          <img src="../../garagehomeimage.jpeg" alt="two-door-garage" className='max-w-full' style={{width: '1000px'}} />
+        <div className="flex-grow flex flex-col items-center mt-1 p-1">
+          <img src="../../garagehomeimage.jpeg" alt="two-door-garage" className='max-w-full rounded' style={{width: '1000px'}} />
         </div>
-        <div className="text-[#5D9CF2] font-bold flex gap-4 mt-4 justify-center">
+        <div className="text-[#5D9CF2] qfont-bold flex gap-4 mt-4 justify-center">
             <div className='text-bod rounded-lg p-2'>
               <h1 className='text-white font-bold flex justify-center'>Why Us?</h1>
               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque ipsam nisi est dolor qui deleniti temporibus illum, ullam ea, molestias consequatur blanditiis rem necessitatibus fuga optio, repellendus labore id odio!
