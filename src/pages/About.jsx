@@ -5,12 +5,16 @@ import Reviews from '../components/About/Reviews.jsx'
 export default function About() {
   return (
     <div className='flex flex-wrap mx-auto max-w-screen-lg'>
-      <div className='qfont-bold flex gap-4 mt-4 justify-center'>
-        {/* <div className="text-[#5D9CF2] qfont-bold flex gap-4 mt-4 justify-center"></div> */}
-          <AboutUs />
-          <Reviews />
-          
+      <div className='w-full flex flex-col md:flex-row md:items-center md:justify-between mt-4'>
+        <div className='max-w-lg w-full mx-auto md:mx-0 md:mr-4 md:mb-0 mb-4'>
+          <AboutUs className='mb-4' />
+        </div>
+        <div className='max-w-lg w-full mx-auto md:mx-0 md:ml-4'>
+          <div className='border-r-2 border-gray-300 md:h-auto h-96'>
+            <Reviews className='mt-4' />
+          </div>
+        </div>
       </div>
     </div>
-  )
+  );
 }

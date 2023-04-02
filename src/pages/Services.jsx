@@ -4,8 +4,9 @@ import Service from '../components/Services/Services'
 
 export default function Services() {
   return (
-    <div className='flex qfont-bold gap-4 mt-4 justify-center'>
+    <div className='flex flex-wrap mx-auto max-w-screen-lg'>
       <Service />
+      
       <ServicesImgs />
     </div>
   )
