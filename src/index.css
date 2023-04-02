@@ -3,9 +3,13 @@
 @tailwind utilities;
 
 body {
-  /* background-color: #23282d; */
   background-color: black;
-  /* font-family: 'Fira Code', monospace; */
-  /* font-family: 'Merriweather Sans', sans-serif; */
-  font-family: sans-serif;
+  font-family: 'Montserrat', sans-serif;
+}
+@font-face {
+  font-family: 'Gotham';
+  src: url('fonts/gotham-bold.woff2') format('woff2'),
+       url('fonts/gotham-bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
 }
