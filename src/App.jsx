@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="App flex flex-col h-screen bg-[#1E1E1E]">
       <Navbar />
-      <div className="flex-grow min-h">
+      <div className="flex-grow">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
@@ -20,7 +20,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </div>
-      <Footer className="h-16" />
+      <Footer className="h-16 mt-5" />
     </div>
   )
 }
