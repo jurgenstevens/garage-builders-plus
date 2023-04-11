@@ -60,7 +60,7 @@ import React from 'react'
         </div>
   
         <div className='w-full p-4'>
-          <div className='h-full rounded-lg overflow-hidden shadow-md bg-black text-white flex items-center max-h-150mb-1'>
+          <div className='h-full rounded-lg overflow-hidden shadow-md bg-black text-white flex items-center max-h-150'>
             <div className="flex-1">
               <h1 className='text-3xl font-bold p-4 text-center'>Garage Door Repair</h1>
               <p className='p-4 text-[#5D9CF3]'>
@@ -69,7 +69,7 @@ import React from 'react'
             </div>
             <div className='w-1/3'>
               <img
-                className='w-full h-44 rounded-lg object-cover max-h-100 mb-1'
+                className='w-full h-44 rounded-lg object-cover max-h-100'
                 src='../../src/assets/images/garagedoor02.jpeg'
                 alt='concrete work'
               />

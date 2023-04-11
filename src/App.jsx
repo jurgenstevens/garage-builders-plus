@@ -20,7 +20,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </div>
-      <Footer className="h-16 mt-5" />
+      <Footer className="h-16" />
     </div>
   )
 }
