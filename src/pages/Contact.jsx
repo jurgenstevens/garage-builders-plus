@@ -21,12 +21,12 @@ export default function Contact() {
           <p className='mt-2'>LinkedIn</p>
         </div>
         <div className='flex flex-col items-center mb-4'>
-          <a href='#'>
+          <a href='https://www.instagram.com/garagebuildersplusinc/'>
             <div className='w-12 h-12 rounded-full bg-blue-500 flex justify-center items-center'>
               <i className='fab fa-twitter text-white'></i>
             </div>
           </a>
-          <p className='mt-2'>Twitter</p>
+          <p className='mt-2'>Instagram</p>
         </div>
       </div>
       <div className='w-full md:w-1/2 lg:w-2/3 px-4 mt-10'>
