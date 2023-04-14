@@ -5,7 +5,7 @@ export default function Contact() {
     <div className='flex flex-wrap mx-auto max-w-screen-lg'>
       <div className='w-full md:w-1/2 lg:w-1/3 flex flex-col justify-center items-center px-4'>
         <div className='flex flex-col items-center mb-4'>
-          <a href='#'>
+          <a href='https://www.facebook.com/garagebuildersplus/'>
             <div className='w-12 h-12 rounded-full bg-blue-600 flex justify-center items-center'>
               <i className='fab fa-facebook-f text-white'></i>
             </div>
