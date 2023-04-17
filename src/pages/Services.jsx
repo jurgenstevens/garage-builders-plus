@@ -4,7 +4,7 @@ import React from 'react'
 
   export default function Services() {
     return (
-      <div className='container flex flex-wrap mx-auto max-w-screen-lg p-2 max-h-screen'>
+      <div className='container flex flex-wrap mx-auto max-w-screen-lg p-2 pb-5'>
         <div className='w-full p-4'>
           <div className='h-full rounded-lg overflow-hidden shadow-md bg-black text-white flex items-center max-h-150'>
             <div className='flex-1'>

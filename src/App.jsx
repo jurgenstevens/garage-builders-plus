@@ -9,7 +9,7 @@ import Footer from './components/Footer.jsx'
 
 function App() {
   return (
-    <div className="App flex flex-col h-screen bg-[#1E1E1E]">
+    <div className="App flex flex-col h-screen"> // possible background of bg-[#1E1E1E]
       <Navbar />
       <div className="flex-grow">
         <Routes>
@@ -20,7 +20,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </div>
-      <Footer className="h-16" />
+      <Footer className="mt-auto" />
     </div>
   )
 }
