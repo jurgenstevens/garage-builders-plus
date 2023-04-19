@@ -10,7 +10,7 @@ export default function Contact() {
               <i className='fab fa-facebook-f text-white'></i>
             </div>
           </a>
-          <p className='mt-2'>Facebook</p>
+          <p className='mt-2 text-white'>Facebook</p>
         </div>
         <div className='flex flex-col items-center mb-4'>
           <a target='_blank' href='https://www.tiktok.com/@gbpinc_?is_from_webapp=1&sender_device=pc'>
@@ -18,7 +18,7 @@ export default function Contact() {
               <i className='fab fa-linkedin-in text-white'></i>
             </div>
           </a>
-          <p className='mt-2 '>TikTok</p>
+          <p className='mt-2 text-white'>TikTok</p>
         </div>
         <div className='flex flex-col items-center mb-4'>
           <a target='_blank' href='https://www.instagram.com/garagebuildersplusinc/'>
@@ -26,7 +26,7 @@ export default function Contact() {
               <i className='fab fa-twitter text-white'></i>
             </div>
           </a>
-          <p className='mt-2'>Instagram</p>
+          <p className='mt-2 text-white'>Instagram</p>
         </div>
       </div>
       <div className='w-full md:w-1/2 lg:w-2/3 px-4 mt-10'>
