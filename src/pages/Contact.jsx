@@ -13,12 +13,12 @@ export default function Contact() {
           <p className='mt-2'>Facebook</p>
         </div>
         <div className='flex flex-col items-center mb-4'>
-          <a target='_blank' href='#'>
-            <div className='w-12 h-12 rounded-full bg-blue-400 flex justify-center items-center'>
+          <a target='_blank' href='https://www.tiktok.com/@gbpinc_?is_from_webapp=1&sender_device=pc'>
+            <div className='w-12 h-12 rounded-full bg-[#F92C56] flex justify-center items-center'>
               <i className='fab fa-linkedin-in text-white'></i>
             </div>
           </a>
-          <p className='mt-2'>LinkedIn</p>
+          <p className='mt-2 '>TikTok</p>
         </div>
         <div className='flex flex-col items-center mb-4'>
           <a target='_blank' href='https://www.instagram.com/garagebuildersplusinc/'>
