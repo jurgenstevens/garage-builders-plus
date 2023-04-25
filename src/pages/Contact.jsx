@@ -30,13 +30,13 @@ export default function Contact() {
         </div>
       </div>
       <div className='w-full md:w-1/2 lg:w-2/3 px-4 mt-10'>
-        <form className='bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4'>
+        <form className='bg-[#252525] shadow-md rounded px-8 pt-6 pb-8 mb-4'>
           <div className='mb-4'>
-            <label className='block text-gray-700 font-bold mb-2' htmlFor='name'>
+            <label className='block text-white font-bold mb-2' htmlFor='name'>
               Name
             </label>
             <input
-              className='shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline'
+              className='shadow appearance-none border rounded w-full py-2 px-3 text-white leading-tight focus:outline-none focus:shadow-outline'
               id='name'
               type='text'
               placeholder='Enter your name'
@@ -44,13 +44,13 @@ export default function Contact() {
           </div>
           <div className='mb-4'>
             <label
-              className='block text-gray-700 font-bold mb-2'
+              className='block text-white font-bold mb-2'
               htmlFor='email'
             >
               Email
             </label>
             <input
-              className='shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline'
+              className='shadow appearance-none border rounded w-full py-2 px-3 text-white leading-tight focus:outline-none focus:shadow-outline'
               id='email'
               type='email'
               placeholder='Enter your email'
@@ -58,13 +58,13 @@ export default function Contact() {
           </div>
           <div className='mb-4'>
             <label
-              className='block text-gray-700 font-bold mb-2'
+              className='block text-white font-bold mb-2'
               htmlFor='message'
             >
               Message
             </label>
             <textarea
-              className='shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline'
+              className='shadow appearance-none border rounded w-full py-2 px-3 text-white leading-tight focus:outline-none focus:shadow-outline'
               id='message'
               rows='6'
               placeholder='Enter your message'
