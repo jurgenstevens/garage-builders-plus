@@ -70,7 +70,7 @@ import React from 'react'
             <div className='w-1/3'>
               <img
                 className='w-full h-44 rounded-lg object-cover max-h-100'
-                src='../../src/public/images/garagedoor02.jpeg'
+                src='../../images/garagedoor02.jpeg'
                 alt='concrete work'
               />
           </div>
