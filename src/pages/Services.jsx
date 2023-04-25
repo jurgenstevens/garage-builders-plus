@@ -16,7 +16,7 @@ import React from 'react'
             <div className='w-1/3'>
               <img
                 className='w-full h-44 rounded-lg object-cover max-h-100'
-                src='../../src/public/images/concrete03.jpeg'
+                src='../../images/concrete03.jpeg'
                 alt='concrete work'
               />
           </div>
@@ -34,7 +34,7 @@ import React from 'react'
             <div className='w-1/3'>
               <img
                 className='w-full h-44 rounded-lg object-cover max-h-100'
-                src='../../src/public/images/siding.jpeg'
+                src='../../images/siding.jpeg'
                 alt='concrete work'
               />
           </div>
@@ -52,7 +52,7 @@ import React from 'react'
             <div className='w-1/3'>
               <img
                 className='w-full h-44 rounded-lg object-cover max-h-100'
-                src='../../src/public/images/garagedoor01.jpeg'
+                src='../../images/garagedoor01.jpeg'
                 alt='concrete work'
               />
           </div>
