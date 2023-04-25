@@ -6,7 +6,7 @@ import React from 'react'
     return (
       <div className='container flex flex-wrap mx-auto max-w-screen-lg p-2 pb-5'>
         <div className='w-full p-4'>
-          <div className='h-full rounded-lg overflow-hidden shadow-md bg-black text-white flex items-center max-h-150'>
+          <div className='h-full rounded-lg overflow-hidden shadow-md bg-[#252525] text-white flex items-center max-h-150'>
             <div className='flex-1'>
               <h1 className='text-3xl font-bold p-4 text-center'>Concrete</h1>
               <p className='p-4 text-[#5D9CF3]'>
@@ -24,7 +24,7 @@ import React from 'react'
         </div>
   
         <div className='w-full p-4'>
-          <div className='h-full rounded-lg overflow-hidden shadow-md bg-black text-white flex items-center max-h-150'>
+          <div className='h-full rounded-lg overflow-hidden shadow-md bg-[#252525] text-white flex items-center max-h-150'>
             <div className="flex-1">
               <h1 className='text-3xl font-bold p-4 text-center'>Siding</h1>
               <p className='p-4 text-[#5D9CF3]'>
@@ -42,7 +42,7 @@ import React from 'react'
         </div>
   
         <div className='w-full p-4'>
-          <div className='h-full rounded-lg overflow-hidden shadow-md bg-black text-white flex items-center max-h-150'>
+          <div className='h-full rounded-lg overflow-hidden shadow-md bg-[#252525] text-white flex items-center max-h-150'>
             <div className="flex-1">
               <h1 className='text-2xl font-bold p-4 text-center'>Garage Door and Motor Replacement</h1>
               <p className='p-4 text-[#5D9CF3]'>
@@ -60,7 +60,7 @@ import React from 'react'
         </div>
   
         <div className='w-full p-4'>
-          <div className='h-full rounded-lg overflow-hidden shadow-md bg-black text-white flex items-center max-h-150'>
+          <div className='h-full rounded-lg overflow-hidden shadow-md bg-[#252525] text-white flex items-center max-h-150'>
             <div className="flex-1">
               <h1 className='text-3xl font-bold p-4 text-center'>Garage Door Repair</h1>
               <p className='p-4 text-[#5D9CF3]'>
