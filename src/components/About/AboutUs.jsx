@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function AboutUs() {
   return (
-    <div className='max-w-lg w-full mx-auto md:mx-0 md:mr-4 md:mb-0 mb-4 bg-black text-[#5D9CF3] flex-grow rounded-2xl p-8 gap-4 mt-4'>
+    <div className='max-w-lg w-full mx-auto md:mx-0 md:mr-4 md:mb-0 mb-4 text-[#5D9CF3] flex-grow rounded-2xl p-8 gap-4 mt-4 bg-[#252525]'>
       <h1 className='font-bold text-center text-3xl text-white mb-4'>About Us!</h1>
       <p>Garage Builders Plus Inc is a family-owned and operated business based in Chicago, IL. We specialize in building custom garages to fit your unique needs and style preferences. 
       <br/>
