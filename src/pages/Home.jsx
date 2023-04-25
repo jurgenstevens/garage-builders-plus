@@ -9,13 +9,11 @@ export default function Main() {
         <div className="text-[#5D9CF2] qfont-bold flex gap-4 mt-4 justify-center">
             <div className='rounded-lg p-2'>
               <h1 className='text-white font-bold flex justify-center'>Why Us?</h1>
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque ipsam nisi est dolor qui deleniti temporibus illum, ullam ea, molestias consequatur blanditiis rem necessitatibus fuga optio, repellendus labore id odio!
-              Asperiores quae repellendus et ea est doloribus, ducimus, aperiam, laboriosam excepturi iure nisi expedita? Esse libero deleniti, quod voluptatum voluptate facere modi amet, quae eaque quo minus eligendi accusantium cumque.</p>
+              <p>Our team is comprised of experienced professionals who are dedicated to delivering high-quality, custom garages that meet your unique needs and style preferences. We use only the best materials and construction techniques to ensure your garage is built to last. From design to completion, we handle every step of the process with professionalism and attention to detail. Choose us for your garage building needs and experience the difference of working with a trusted and reliable team.</p>
             </div>
             <div className='text-[#5D9CF2] font-bold text-bod rounded-lg p-2'>
               <h1 className='text-white flex justify-center'>Get A Quote!</h1>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, ex! Aperiam, itaque sint qui perspiciatis aut possimus, ad doloremque repellendus repellat enim ipsam voluptate fugit nulla soluta necessitatibus quisquam officiis?
-              Provident quisquam maxime sint iusto, modi voluptatum quae vitae, reiciendis sequi beatae at veniam quam doloribus sapiente odio. Quis ipsam cumque illum illo error. Non alias quam sed porro. Beatae?</p>
+              <p>Ready to get started on your custom garage project? Contact us today for a free quote! Our team of experts will work with you to understand your unique needs and budget and provide you with a customized quote that fits your requirements. With competitive pricing and exceptional customer service, we're the perfect choice for your garage building needs in Chicago. Don't wait, get in touch with us now and let's start building your dream garage!</p>
             </div>
         </div>
     </div>
