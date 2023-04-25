@@ -6,7 +6,7 @@ export default function Gallery() {
   for (let i = 1; i <= 30; i++) {
       imgArr.push(
         <div>
-          <img key={`galleryImg${i}`} src={`../src/assets/images/gbpgallery${i}.jpeg`} alt={`galleryimg${i}`} className="w-full h-full rounded object-cover" />
+          <img key={`galleryImg${i}`} src={`../src/public/images/gbpgallery${i}.jpeg`} alt={`galleryimg${i}`} className="w-full h-full rounded object-cover" />
         </div>
       )
     }
