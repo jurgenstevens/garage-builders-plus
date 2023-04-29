@@ -54,7 +54,6 @@ export default function Contact() {
             </label>
             <input
               className='shadow appearance-none border rounded w-full py-2 px-3 text-black leading-tight focus:outline-none focus:shadow-outline'
-              id='name'
               type="text" 
               name="user_name"
               placeholder='Enter your name'
@@ -69,7 +68,6 @@ export default function Contact() {
             </label>
             <input
               className='shadow appearance-none border rounded w-full py-2 px-3 text-black leading-tight focus:outline-none focus:shadow-outline'
-              id='email'
               type='email'
               name="user_email"
               placeholder='Enter your email'
