@@ -1,13 +1,14 @@
-import React, { useRef } from 'react';
-import emailjs from '@emailjs/browser';
-
+import React, { useRef } from 'react'
+import emailjs from '@emailjs/browser'
+import process from 'process';
+console.log(import.meta.env)
 export default function Contact() {
   const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm(process.env.MY_SRVC_ID, process.env.MY_TMPLT_ID, form.current, process.env.MY_PUB_KEY)
+    emailjs.sendForm(import.meta.env.VITE_YOUR_SERVICE_ID, import.meta.env.VITE_YOUR_TEMPLATE_ID, form.current, import.meta.env.VITE_YOUR_PUBLIC_KEY)
       .then((result) => {
           console.log(result.text);
       }, (error) => {
@@ -85,7 +86,7 @@ export default function Contact() {
               rows='6'
               name='message'
               placeholder='Enter your message'
-            ></textarea>
+            />
           </div>
           <div className='flex items-center justify-between'>
             <input
