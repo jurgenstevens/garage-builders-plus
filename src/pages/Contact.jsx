@@ -7,7 +7,7 @@ export default function Contact() {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY')
+    emailjs.sendForm(process.env.MY_SRVC_ID, process.env.MY_TMPLT_ID, form.current, process.env.MY_PUB_KEY)
       .then((result) => {
           console.log(result.text);
       }, (error) => {
@@ -44,15 +44,16 @@ export default function Contact() {
         </div>
       </div>
       <div className='w-full md:w-1/2 lg:w-2/3 px-4 mt-10'>
-        <form className='bg-[#252525] shadow-md rounded px-8 pt-6 pb-8 mb-4' onSubmit={sendEmail} >
+        <form className='bg-[#252525] shadow-md rounded px-8 pt-6 pb-8 mb-4' ref={form} onSubmit={sendEmail} >
           <div className='mb-4'>
             <label className='block text-white font-bold mb-2' htmlFor='name'>
               Name
             </label>
             <input
-              className='shadow appearance-none border rounded w-full py-2 px-3 text-white leading-tight focus:outline-none focus:shadow-outline'
+              className='shadow appearance-none border rounded w-full py-2 px-3 text-black leading-tight focus:outline-none focus:shadow-outline'
               id='name'
-              type='text'
+              type="text" 
+              name="user_name"
               placeholder='Enter your name'
             />
           </div>
@@ -64,9 +65,10 @@ export default function Contact() {
               Email
             </label>
             <input
-              className='shadow appearance-none border rounded w-full py-2 px-3 text-white leading-tight focus:outline-none focus:shadow-outline'
+              className='shadow appearance-none border rounded w-full py-2 px-3 text-black leading-tight focus:outline-none focus:shadow-outline'
               id='email'
               type='email'
+              name="user_email"
               placeholder='Enter your email'
             />
           </div>
@@ -78,19 +80,18 @@ export default function Contact() {
               Message
             </label>
             <textarea
-              className='shadow appearance-none border rounded w-full py-2 px-3 text-white leading-tight focus:outline-none focus:shadow-outline'
+              className='shadow appearance-none border rounded w-full py-2 px-3 text-black leading-tight focus:outline-none focus:shadow-outline'
               id='message'
               rows='6'
+              name='message'
               placeholder='Enter your message'
             ></textarea>
           </div>
           <div className='flex items-center justify-between'>
-            <button
+            <input
               className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline'
-              type='submit'
-            >
-              Submit
-            </button>
+              type='submit' value="Send"
+            />
           </div>
         </form>
       </div>
