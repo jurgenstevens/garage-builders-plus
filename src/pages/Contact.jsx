@@ -1,18 +1,20 @@
 import React, { useRef } from 'react'
+import { useNavigate } from 'react-router-dom'
 import emailjs from '@emailjs/browser'
-import process from 'process';
-console.log(import.meta.env)
+
 export default function Contact() {
-  const form = useRef();
+  const form = useRef()
+  const navigate = useNavigate()
 
   const sendEmail = (e) => {
-    e.preventDefault();
+    e.preventDefault()
 
     emailjs.sendForm(import.meta.env.VITE_YOUR_SERVICE_ID, import.meta.env.VITE_YOUR_TEMPLATE_ID, form.current, import.meta.env.VITE_YOUR_PUBLIC_KEY)
       .then((result) => {
-          console.log(result.text);
+          console.log(result.text)
+          navigate('/', { replace: true })
       }, (error) => {
-          console.log(error.text);
+          console.log(error.text)
       });
   };
 
