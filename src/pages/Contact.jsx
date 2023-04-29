@@ -44,7 +44,7 @@ export default function Contact() {
         </div>
       </div>
       <div className='w-full md:w-1/2 lg:w-2/3 px-4 mt-10'>
-        <form className='bg-[#252525] shadow-md rounded px-8 pt-6 pb-8 mb-4' onSubmit={sendEmail}>
+        <form className='bg-[#252525] shadow-md rounded px-8 pt-6 pb-8 mb-4' onSubmit={sendEmail} >
           <div className='mb-4'>
             <label className='block text-white font-bold mb-2' htmlFor='name'>
               Name
