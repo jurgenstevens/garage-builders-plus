@@ -6,6 +6,7 @@ import Services from './pages/Services.jsx'
 import Gallery from './pages/Gallery.jsx'
 import Contact from './pages/Contact.jsx'
 import Footer from './components/Footer.jsx'
+import EmailSent from './pages/EmailSent.jsx'
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/services" element={<Services />} />
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/email-sent" element={<EmailSent />} />
         </Routes>
       </div>
       <Footer className="mt-auto" />

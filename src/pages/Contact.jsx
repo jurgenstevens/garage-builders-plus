@@ -12,7 +12,7 @@ export default function Contact() {
     emailjs.sendForm(import.meta.env.VITE_YOUR_SERVICE_ID, import.meta.env.VITE_YOUR_TEMPLATE_ID, form.current, import.meta.env.VITE_YOUR_PUBLIC_KEY)
       .then((result) => {
           console.log(result.text)
-          navigate('/', { replace: true })
+          navigate('/email-sent', { replace: true })
       }, (error) => {
           console.log(error.text)
       });
