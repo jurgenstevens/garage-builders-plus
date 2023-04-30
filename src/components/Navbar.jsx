@@ -13,17 +13,17 @@ export default function Navbar() {
         <div className='flex'>
           <img 
             src="../GBP-Logo.jpeg"
-            style={{ width: "200px"}}
+            className='w-64'
           />
           <div>
-            <h5 className='text-3xl font-satisfy-bold text-[#5D9CF3]'>Garage</h5>
-            <h5 className='text-3xl font-bold text-[#969696]'>Builders </h5>
-            <h5 className='text-3xl font-bold text-[#5D9CF3]'>Plus, Inc</h5>
+            <h5 className='text-2xl font-satisfy-bold text-[#5D9CF3]'>Garage</h5>
+            <h5 className='text-2xl font-bold text-[#969696]'>Builders </h5>
+            <h5 className='text-2xl font-bold text-[#5D9CF3]'>Plus, Inc</h5>
           </div>
         </div>
         <ul className='hidden md:flex'>
             <li className='p-4'><Link to="/">Home</Link></li>
-            <li className='p-4'><Link to="/about">About Us</Link></li>
+            <li className='p-4'><Link to="/about">About</Link></li>
             <li className='p-4'><Link to="/services">Services</Link></li>
             <li className='p-4'><Link to="/gallery">Gallery</Link></li>
             <li className='p-4'><Link to="/contact">Contact</Link></li>
