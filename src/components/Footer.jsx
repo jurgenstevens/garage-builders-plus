@@ -7,8 +7,8 @@ export default function Footer() {
           <h1 className='text-3xl font-satisfy-bold text-[#5D9CF3]'>GBP</h1>
         </div>
         <div className="business-hours text-[#969696]">
-          <p>Monday - Friday - 9am - 6pm</p>
-          <p>Saturday - Sunday - Closed</p>
+          <p>Monday - Sunday - 8am - 7pm</p>
+          <p>312-330-7946</p>
         </div>
     </div>
   )
