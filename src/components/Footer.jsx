@@ -8,7 +8,7 @@ export default function Footer() {
         </div>
         <div className="business-hours text-[#969696]">
           <p>Monday - Sunday - 8am - 7pm</p>
-          <p>312-330-7946</p>
+          <p>Call us at 312-330-7946</p>
         </div>
     </div>
   )
