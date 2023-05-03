@@ -9,9 +9,9 @@ export default function Reviews() {
         <p>I got my garage door replaced last summer. I high recommend! Fast, efficient and so kind. - <b>Jessica Washington</b></p>
       </li>
       <br />
-      <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus earum ducimus, dolores sapiente molestiae voluptas iusto aspernatur in est ratione aliquam esse maxime, nihil quasi architecto culpa optio quo praesentium. - <b>Jane Doe</b></li>
+      <li>Very professional, replaced roof on my garage and did great job, left the area nice and clean. Thank you. - <b>Marcin Wojtas</b></li>
       <br />
-      <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus earum ducimus, dolores sapiente molestiae voluptas iusto aspernatur in est ratione aliquam esse maxime, nihil quasi architecto culpa optio quo praesentium. - <b>John Jones</b></li>
+      <li>I use garage builders for various projects including everything I selected on the questionnaire and more. They're my go to guys for almost every project If they can't do it they'll recommend someone who will and the price is always reasonable. I own real estate and am am always rehabbing properties. I would highly recomment their services. - <b>Darth Zane</b></li>
     </ul>
   </div>
   )
