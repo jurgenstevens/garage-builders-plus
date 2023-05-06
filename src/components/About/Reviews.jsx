@@ -11,7 +11,7 @@ export default function Reviews() {
       <br />
       <li>Very professional, replaced roof on my garage and did great job, left the area nice and clean. Thank you. - <b className='text-white'>Marcin Wojtas</b></li>
       <br />
-      <li>I use garage builders for various projects including everything I selected on the questionnaire and more. They're my go to guys for almost every project If they can't do it they'll recommend someone who will and the price is always reasonable. I own real estate and am am always rehabbing properties. I would highly recomment their services! - <b className='text-white'>Darth Zane</b></li>
+      <li>I use garage builders for various projects including everything I selected on the questionnaire and more. They're my go to guys for almost every project If they can't do it they'll recommend someone who will and the price is always reasonable. I own real estate and am am always rehabbing properties. I would highly recomment their services. - <b className='text-white'> Zane</b></li>
     </ul>
   </div>
   )
