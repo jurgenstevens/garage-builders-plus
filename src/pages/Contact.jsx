@@ -39,7 +39,7 @@ export default function Contact() {
         </div>
         <div className='flex flex-col items-center mb-4'>
           <a target='_blank' href='https://www.instagram.com/garagebuildersplusinc/'>
-            <div className='w-12 h-12 rounded-full bg-blue-500 flex justify-center items-center'>
+            <div className='w-12 h-12 rounded-full bg-[#505AC6] flex justify-center items-center'>
               <i className='fab fa-twitter text-white'></i>
             </div>
           </a>
