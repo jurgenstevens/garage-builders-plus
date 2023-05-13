@@ -4,7 +4,7 @@ export default function Main() {
   return (
     <div className='flex flex-wrap mx-auto max-w-screen-lg'>
         <div className="flex-grow flex flex-col items-center mt-1 p-2 rounded-md bg-[#252525]">
-          <img src="../../garagehomeimage.jpeg" alt="two-door-garage" className='max-w-full rounded' style={{width: '1000px'}} />
+          <img src="../../gbpgaragehomeimage.jpeg" alt="two-door-garage" className='max-w-full rounded' style={{width: '1000px'}} />
         </div>
         <div className="text-[#5D9CF2] qfont-bold flex gap-4 mt-4 justify-center">
             <div className='rounded-lg p-2 bg-[#252525]'>
