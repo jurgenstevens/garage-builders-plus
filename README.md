@@ -28,6 +28,10 @@ The website incorporates various features to enhance project management and comm
 ## Technologies Used
 The Garage Builders Plus, Inc. website is built using the following technologies:
 
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)	
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+
 - **React.js:** The frontend of the website is developed using React.js, a popular JavaScript library for building user interfaces. React.js provides a modular and efficient approach to building interactive components.
 
 - **Tailwind CSS:** Tailwind CSS is used for styling the website. It is a utility-first CSS framework that allows for rapid development and easy customization.
