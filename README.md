@@ -3,9 +3,6 @@ Welcome to Garage Builders Plus, Inc. This document provides an overview of the 
 
 ## Click [here](https://garagebuilderspluschi.netlify.app/) to visit the site.
 
-# Garage Builders Plus, Inc. Website
-
-Welcome to the README file for the Garage Builders Plus, Inc. website. This document provides an overview of the website, its current features, and possible future features. 
 
 ## Introduction
 The Garage Builders Plus, Inc. website serves as an informative front-end platform for a garage building company based in Chicago, Illinois. It provides visitors with valuable information about the company, their services, and showcases a gallery of their previous work. 
